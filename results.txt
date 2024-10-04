@@ -1,0 +1,61 @@
+Using Pattern 1: Fork all at once
+Process 1 (PID 3959) beginning.
+Process 2 (PID 3960) beginning.
+Process 3 (PID 3961) beginning.
+Process 4 (PID 3962) beginning.
+Process 5 (PID 3963) beginning.
+Process 6 (PID 3964) beginning.
+Process 7 (PID 3965) beginning.
+Process 2 (PID 3960) exiting.
+Process 1 (PID 3959) exiting.
+Process 3 (PID 3961) exiting.
+Process 4 (PID 3962) exiting.
+Process 5 (PID 3963) exiting.
+Process 6 (PID 3964) exiting.
+Process 7 (PID 3965) exiting.
+
+Using Pattern 2: Sequential process creation
+Process 1 (PID 4401) beginning.
+Process 1 (PID 4401) exiting.
+Process 2 (PID 4426) beginning.
+Process 2 (PID 4426) exiting.
+Process 3 (PID 4450) beginning.
+Process 3 (PID 4450) exiting.
+Process 4 (PID 4474) beginning.
+Process 4 (PID 4474) exiting.
+Process 5 (PID 4499) beginning.
+Process 5 (PID 4499) exiting.
+Process 6 (PID 4523) beginning.
+Process 6 (PID 4523) exiting.
+Process 7 (PID 4547) beginning.
+Process 7 (PID 4547) exiting.
+
+Using Pattern 3: Tree structure process creation
+Process 1 (PID 4085) beginning.
+Process 2 (PID 4088) beginning.
+Process 1 (PID 4089) beginning.
+Process 1 (PID 4090) beginning.
+Process 2 (PID 4091) beginning.
+Process 2 (PID 4092) beginning.
+Process 1 (PID 4093) beginning.
+Process 2 (PID 4094) beginning.
+Process 2 (PID 4088) exiting.
+Process 1 (PID 4085) exiting.
+Process 1 (PID 4089) exiting.
+Process 2 (PID 4091) exiting.
+Process 1 (PID 4090) exiting.
+Process 5 (PID 4083) beginning.
+Process 5 (PID 4084) beginning.
+Process 2 (PID 4092) exiting.
+Process 6 (PID 4086) beginning.
+Process 1 (PID 4093) exiting.
+Process 2 (PID 4094) exiting.
+Process 6 (PID 4087) beginning.
+Process 5 (PID 4083) exiting.
+Process 5 (PID 4084) exiting.
+Process 6 (PID 4086) exiting.
+Process 13 (PID 4081) beginning.
+Process 6 (PID 4087) exiting.
+Process 14 (PID 4082) beginning.
+Process 13 (PID 4081) exiting.
+Process 14 (PID 4082) exiting.
